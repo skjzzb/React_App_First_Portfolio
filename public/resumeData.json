@@ -1,0 +1,118 @@
+{
+  "main": {
+    "name": "Saurabh Jadhav",
+    "occupation": "Software Engineer at GS Lab ",
+    "description": " ReactJS | Js | Java | Spring Boot | CI | CD  Developer by Day",
+    "image": "Saurbah.JPG",
+    "bio": "My name is Saurabh, I'm a Software Engineer. Currently I'm working at GSlab,Pune ",
+    "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
+    "email": "saurabhjk07@gmail.com",
+    "phone": "+91 9860825314",
+    "address": {
+      "street": "Flat no 4, Priyanka Kunj,Kothrud",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "zip": "411038"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload": "https://drive.google.com/file/d/1SUgfpdvItLzpXzohZ9I0r245TBZ5AnzL/view?usp=sharing",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/skjzzb",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/saurabh-jadhav-961917121 ",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/saurabhjk07",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/skjzzb",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "To Acquire A Challenging Position In An Environment Where I Can Best Utilize My Skills And Knowledge.",
+    "education": [
+      {
+        "school": "C-DAC(Infoway Pune)",
+        "degree": " PG-DAC",
+        "graduated": "2020",
+        "description": "Completed Post Graduation Diploma  with Distinction 74.10%"
+      },
+
+      {
+        "school": "Pune Institute of Computer Technology,Pune",
+        "degree": " Computer Engineering",
+        "graduated": "2019",
+        "description": "Graduated with Distinction 68.00%"
+      }
+    ],
+    "work": [
+      {
+        "company": "GS Lab",
+        "title": "Software Engineer  ",
+        "years": "May 2020 - Present",
+        "description": "Working as Java Developer"
+      }
+    ],
+    "skills": [
+      {
+        "name": "JAVA",
+        "level": "80%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "80%"
+      },
+      {
+        "name": "CSS",
+        "level": "85%"
+      },
+      {
+        "name": "Git",
+        "level": "70%"
+      },
+      {
+        "name": "Firebase",
+        "level": "75%"
+      },
+      {
+        "name": "HTML5",
+        "level": "80%"
+      },
+      {
+        "name": "Mysql",
+        "level": "80%"
+      },
+      {
+        "name": "C++",
+        "level": "80%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "COVID-19 Tracker (Responsive) React Web App",
+        "category": "COVID-19 Tracker built with React ,Firebase,Material-ui,Flex-box",
+        "image": "covid.JPG",
+        "url": "https://github.com/skjzzb/React_App_1_COVID-19_TRACKER"
+      },
+      {
+        "title": "Shop.  (E-Commerce Shopping App ) React Web App",
+        "category": "Shop. built with React Hooks,React Redux,Verecel,Material-ui,Flex-box,SweetAlert 2",
+        "image": "shop.JPG",
+        "url": "https://github.com/skjzzb/React_App_2_Shop._E-Commerce_Web_App"
+      }
+    ]
+  }
+}
