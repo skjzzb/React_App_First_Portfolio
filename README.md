@@ -1,43 +1,30 @@
-# Clever Programmer ReactJS Portfolio Template      
+# ReactJS Portfolio       
 
-## 👇 WATCH THIS FIRST 👇
-## https://tinyurl.com/customizeReactPortfolio
+## 👇 PortFolio 👇
+## 
 
-![ReactJS Resume Website Template](resume-screenshot.png?raw=true "ReactJS Resume Website Template")
+###  This App is Deployed on :fire: Firebsae You can check.
 
-## <a href="https://compassionate-leakey-e9b16b.netlify.app/">LIVE DEMO</a>
+## [:heavy_check_mark: Live Preview :zap:](https://first-portfoilio.web.app/)
 
-## Description
-This is a ReactJS based personal resume website template for participants of The 6 Figure JavaScript ReactJS Challenge by Clever 
+###  `This is Portfolio Developed uing React Js  `
+---
+![Capture](https://user-images.githubusercontent.com/18563323/100598620-ff4ce200-3324-11eb-905b-35fa90ec22c2.JPG)
 
-## Make it Your Own!
-#### PREREQUISITES:
-- Sign up for a Netlify account <a href='https://www.netlify.com'>HERE</a>
-- Install Node JS in your computer <a href='https://nodejs.org/en/'>HERE</a>
-#### PROCEDURE:
-- Download the zip folder from Github and unzip it
-Here is the link to download zip 👉
-<a href='https://github.com/CleverProgrammers/react-portfolio'>HERE</a>
-- Open the folder in VS Code
-- Edit <code>public/resumeData.json</code> and add your personal details and projects
-- Open terminal in VS Code
-- RUN <code>npm init</code> , this command can be used to set up a new or existing npm package
-- RUN <code>npm install</code> , this command pulls out all the require node modules
-- RUN <code>npm run build</code>, this command will create a build folder for you
-- DRAG AND DROP the BUILD folder on Netlify, your app is live now for the world to see
+___
 
+---
+___
 
-## Credits
+## Hit That.. :star: Button... :thumbsup:
 
-#### All Credits Goes to Tim Baker <a href='https://github.com/tbakerx/react-resume-template'>Original Repo</a>
+___
+## Use following command to use code.
+### npm install
+
+### npm start
+
+### npm run build
+___
 
 
-
-HTML Design Template
-<a href="https://www.styleshout.com/free-templates/ceevee/">Ceevee Template by Styleshout</a>
-
-Header photo credit
-<a href="https://unsplash.com/@mischievous_penguins?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge">Casey Horner</a>
-
-Testimonial photo credit
-<a href="https://unsplash.com/@samuelzeller?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge">Samuel Zeller</a>
