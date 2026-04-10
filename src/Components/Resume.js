@@ -36,8 +36,13 @@ class Resume extends Component {
         var className = 'bar-expand ' + skill.name.toLowerCase().replace(/[^a-z]/g, '');
         return (
           <li key={skill.name}>
-            <span style={{ width: skill.level }} className={className}></span>
-            <em>{skill.name}</em>
+            <span style={{ width: skill.level }} className={className}>
+              <span className="skill-percentage">{skill.level}</span>
+            </span>
+            <em>
+              <i className={'fa ' + skill.icon + ' skill-icon'}></i>
+              {skill.name}
+            </em>
           </li>
         );
       });

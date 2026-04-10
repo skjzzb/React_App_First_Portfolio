@@ -244,21 +244,41 @@ ul#nav li a:hover { color: #38bdf8; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background: #38bdf8;
-   color: #0f172a;
+   background: #0f172a;
+   color: #fff;
    font-weight: bold;
    border-radius: 6px;
    transition: all 0.3s ease;
 }
 #about .download .button:hover {
-   background: #7dd3fc;
-   color: #0f172a;
+   background: #1e293b;
+   color: #fff;
    transform: translateY(-2px);
-   box-shadow: 0 4px 15px rgba(56, 189, 248, 0.3);
+   box-shadow: 0 4px 15px rgba(15, 23, 42, 0.4);
 }
 #about .download .button i {
    margin-right: 15px;
    font-size: 20px;
+   color: #fff;
+}
+
+/* Global button style override - match Download Resume button */
+.button,
+.button:visited,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+   background: #0f172a;
+   color: #fff;
+}
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+   background: #1e293b;
+   color: #fff;
 }
 
 
@@ -364,11 +384,11 @@ ul#nav li a:hover { color: #38bdf8; }
 }
 .bars li {
    position: relative;
-  	margin-bottom: 50px;
+  	margin-bottom: 60px;
   	background: #e2e8f0;
   	height: 36px;
   	border-radius: 18px;
-   overflow: hidden;
+   overflow: visible;
 }
 .bars li em {
 	font: 14px 'opensans-bold', sans-serif;
@@ -376,8 +396,16 @@ ul#nav li a:hover { color: #38bdf8; }
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
-   position: relative;
-	top: -32px;
+   position: absolute;
+	top: -28px;
+	left: 10px;
+   display: flex;
+   align-items: center;
+   gap: 8px;
+}
+.skill-icon {
+   font-size: 20px;
+   /* color: #0ea5e9; */
 }
 .bar-expand {
    position: absolute;
@@ -386,11 +414,20 @@ ul#nav li a:hover { color: #38bdf8; }
    margin: 0;
    padding-right: 24px;
   	background: linear-gradient(90deg, #0ea5e9, #38bdf8);
-   display: inline-block;
+   display: block;
   	height: 36px;
    line-height: 36px;
    border-radius: 18px;
    transition: width 1.5s ease-in-out;
+}
+.skill-percentage {
+   font: 16px 'opensans-bold', sans-serif;
+   color: #fff;
+   position: absolute;
+   right: 12px;
+   top: 50%;
+   transform: translateY(-50%);
+   text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
 }
 
 
@@ -714,8 +751,8 @@ ul#nav li a:hover { color: #38bdf8; }
 #contact button.submit {
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: #0f172a;
-   background: #38bdf8;
+	color: #fff;
+   background: #0f172a;
 	border: none;
    cursor: pointer;
    height: auto;
@@ -727,10 +764,10 @@ ul#nav li a:hover { color: #38bdf8; }
    transition: all 0.3s ease;
 }
 #contact button.submit:hover {
-	color: #0f172a;
-	background: #7dd3fc;
+	color: #fff;
+	background: #1e293b;
    transform: translateY(-2px);
-   box-shadow: 0 4px 15px rgba(56, 189, 248, 0.3);
+   box-shadow: 0 4px 15px rgba(15, 23, 42, 0.4);
 }
 #contact span.required {
 	color: #38bdf8;
