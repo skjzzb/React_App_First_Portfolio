@@ -5,7 +5,7 @@
 
 ###  This App is Deployed on :fire: Firebsae You can check.
 
-## [:heavy_check_mark: Live Preview :zap:](https://first-portfoilio.web.app/)
+## [:heavy_check_mark: Live Preview :zap:](https://react-app-first-portfolio.vercel.app/)
 
 ###  `This is Portfolio Developed uing React Js  `
 ---
